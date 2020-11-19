@@ -210,9 +210,9 @@ function test2() {
   myLongStr.replace(reg, '');
 }
 
-console.log(testPerformance(100, test1)); // time
-console.log(testPerformance(100, test2)); // time
-console.log(testPerformance(100, 12345)); // 0
+console.log(testPerformance(100, test1)); 
+console.log(testPerformance(100, test2)); 
+console.log(testPerformance(100, 12345));
 
 
 
